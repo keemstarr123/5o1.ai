@@ -17,7 +17,7 @@ import streamlit as st
 
 
 # Define the Google Slides API scope
-SERVICE_ACCOUNT_FILE = "service_acc.json"
+SERVICE_ACCOUNT_FILE = json.loads(os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON"))
 
 SCOPES = ["https://www.googleapis.com/auth/presentations", "https://www.googleapis.com/auth/drive"]
 
