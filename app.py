@@ -17,11 +17,11 @@ import json
 
 
 # Define the Google Slides API scope
-SERVICE_ACCOUNT_FILE = st.secret['service_acc']
+SERVICE_ACCOUNT_FILE = st.secrets['service_acc']
 
 SCOPES = ["https://www.googleapis.com/auth/presentations", "https://www.googleapis.com/auth/drive"]
 
-openai.api_key = st.secret['openai']
+openai.api_key = st.secrets['openai']
 
 
 TEMPLATE = '''
