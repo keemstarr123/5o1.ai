@@ -18,17 +18,17 @@ import json
 
 
 # Define the Google Slides API scope
-acc_details = st.secret['service_acc']
+acc_details = st.secrets['service_acc']
 
 with tempfile.NamedTemporaryFile(mode="w+", delete=False, suffix=".json") as temp_json:
-    json.dump(dict(service_account_info), temp_json)
+    json.dump(dict(acc_details), temp_json)
     temp_json.flush()  # Ensure data is written before using the file
     SERVICE_ACCOUNT_FILE = temp_json.name  # Store the file path
 
 
 SCOPES = ["https://www.googleapis.com/auth/presentations", "https://www.googleapis.com/auth/drive"]
 
-openai.api_key = st.secret['openai']
+openai.api_key = st.secrets['openai']
 
 
 TEMPLATE = '''
