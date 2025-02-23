@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "mineral-minutia-440311-t8",
+  "private_key_id": "eb075507d960c1efe185a809d0edf8051401b1d3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCWmirQIoZJg4XX\nsi5RpU6NqMOLAN108ZUq5KBduYmn1do9C1CT65Sr8RF1QA8Zss16EgkkB5yuMf6B\nj/VQUrT6Q2XACkg1CUF64EX6U5Rza7Ij56f8bmqILbxDZpaMBz0Cq5eFUA/XaSa4\nL1PAHDHWITwrQqbj4J99INrjWeeeL6joRgST3t/teFmMuh9XM/r1j2mdceTQKIDu\neHhtnhpm+XV9+CmbH0gp/oSpo8e/hoNrD3/V63hEBzxOG3VNZQrEKxh3ffeUGhwB\nyr8zz+1HULCBNbV35GCTJRB01K4JzSpVos1SThKyE4LIuJDjjebx0kXydawL1p44\nD/aysVQhAgMBAAECggEAGwKnbxDiGMk39gmE+Su2vP1ppMKQ9WpmoHzErkqaf7mB\nHLWsy/rSfUwNH4RPsQI6jAw0C3w6A5v/02joTHGo98GivCCb9rckQU97/XuEAnds\nSbhAjquW+7mILGZ31cFulc4ErOpBDRdU1G/Yi3oDDi6DxhZ8LB6bPCvqViBHxDzt\nf9QHRv46NjRDQAkh6Dwx5ImEwzerPrFiX13KfphGUVgGMzU66LQDjQoYq2bPlvSL\ndxbxC6LnF56UDmsPKdBWxWmOZqu2dNCsFCrZjcopb3hdS265eNrYqMbm1kAMslfi\n/dRrNmA4VAs59Sd3fYtPlBQ0xLTkOc2Wtvdjha6TSQKBgQDOQGJBZlzQVEgWpM7+\ntVb0XVfZNyCuHjR4YFRdl6+Llin7SP+S69K1h22t4DLj8/0fNnfX2JC7+u++cYbp\nM5+b4npdzUgXMpp+aqNJf7xrQ/393G5TyGhgtUMYWwM3Ps80w+AotqFt9nXxcEzl\nuYs3awtLcNlvm3DFJGC21mX2uwKBgQC67Y1Fv1AdhzAkfquIGaZxV+RsiLhPKvK/\nOl9OLyAQuAR/18QNmqG58kmgFj94uwZPsmI/yEzH0UQw3rvkB1ASGuCEpV9zjrBW\n3/czpzBRUkHpJCWU1Wr6bhMc4jeA7wv01cUPRLK5+/Z5EwromtAAV8f2Qtkn3SBy\nOHJXqhFo0wKBgCygOaI057gbxE1B85eg3OOanrtc9jE2T9wL27U0cMMfBo5cSRAc\n/kZQuyZ38Arqa8YpHt0Q+p/xt5XZMnuas9oisp9BH2wFgu//Wr04aig7WeVnoGd4\nYT0rewz2BEgbyvF7wDCO83a7cOGAjuLVto2TF6qHDETduRSuvk5RLVapAoGAEBtN\n8/eTIKg4ZryfbR/Arr2DCjMRpoit1/pgoez/l1Ez2gwucXmke9A7tdaU64M5/P4C\n5zoMG5+Vf5yBlhlnNdgpBmT1f5CI80NjGolKaYdr9HnP3y4whJmdffykCbEPV65f\nx3wE5m+mgjI422gTiiQGL9r8uSmdlRn2CEW4ME8CgYEAseukX8OVcph44wMQXgfY\ng670vEl68uaILa+6hAxcGiQZrUmESbYHFb7triol5V6zhxDHLP13O58cLjY7m6+8\nN1BHaCNdJtGMBpwCPH7jXcyWm+X9gV07JIh7gmyhc9byrx5b9R5MWx9GxtzpDvnr\nRTSjzGwZmJAWQmB0nX4pHsc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ibmhack@mineral-minutia-440311-t8.iam.gserviceaccount.com",
+  "client_id": "104730372367813788497",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ibmhack%40mineral-minutia-440311-t8.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
