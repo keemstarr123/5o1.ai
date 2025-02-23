@@ -13,7 +13,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st
-
+import json
 
 
 # Define the Google Slides API scope
@@ -21,7 +21,7 @@ SERVICE_ACCOUNT_FILE = json.loads(os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON"))
 
 SCOPES = ["https://www.googleapis.com/auth/presentations", "https://www.googleapis.com/auth/drive"]
 
-openai.api_key = "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"
+openai.api_key = json.loads(os.getenv("openai")).key
 
 
 TEMPLATE = '''
