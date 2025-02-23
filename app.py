@@ -6,6 +6,7 @@ import openai
 import getpass
 import requests
 import re
+import tempfile
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
@@ -17,11 +18,17 @@ import json
 
 
 # Define the Google Slides API scope
-SERVICE_ACCOUNT_FILE = st.secrets['service_acc']
+acc_details = st.secret['service_acc']
+
+with tempfile.NamedTemporaryFile(mode="w+", delete=False, suffix=".json") as temp_json:
+    json.dump(dict(service_account_info), temp_json)
+    temp_json.flush()  # Ensure data is written before using the file
+    SERVICE_ACCOUNT_FILE = temp_json.name  # Store the file path
+
 
 SCOPES = ["https://www.googleapis.com/auth/presentations", "https://www.googleapis.com/auth/drive"]
 
-openai.api_key = st.secrets['openai']
+openai.api_key = st.secret['openai']
 
 
 TEMPLATE = '''
