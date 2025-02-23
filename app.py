@@ -17,7 +17,7 @@ import json
 
 
 # Define the Google Slides API scope
-SERVICE_ACCOUNT_FILE = json.loads(os.getenv("SERVICE_ACC"))
+SERVICE_ACCOUNT_FILE = "hello"
 
 SCOPES = ["https://www.googleapis.com/auth/presentations", "https://www.googleapis.com/auth/drive"]
 
