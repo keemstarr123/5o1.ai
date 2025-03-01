@@ -240,7 +240,7 @@ def get_skeleton_consulting_draft(token, i, inp, messages):
     body = {
             "messages": messages,
             "project_id": "2adff67d-e6e6-441f-a869-9ba2da6c5f42",
-            "model_id": "ibm/granite-3-2-8b-instruct-preview-rc",
+            "model_id": "ibm/granite-3-2-8b-instruct",
             "decoding_method": "sample",
             "min_new_tokens": 0,
             "temperature": 0,
